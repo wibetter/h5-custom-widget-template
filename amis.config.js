@@ -34,7 +34,7 @@ module.exports = {
   },
   preview: {
     entry: { // 本地预览自定义组件内容
-      index: './src/h5Components/preview.js',
+      index: './src/components/preview.js',
     },
     // 用于开启本地调试模式的相关配置信息
     NODE_ENV: 'development',
@@ -49,8 +49,8 @@ module.exports = {
   linkDebug: {
     entry: { // 外链调试（爱速搭中预览本地自定义组件）
       index: [
-        './src/h5Components/info-card/renderer.js',
-        './src/h5Components/info-card/plugin.js',
+        './src/components/info-card/renderer.js',
+        './src/components/info-card/plugin.js',
       ],
     },
     NODE_ENV: 'production',
@@ -67,8 +67,8 @@ module.exports = {
   // build2lib 用于打包生成环境的js模块
   build2lib: {
     entry: {
-      renderer: './src/h5Components/info-card/renderer.js',
-      plugin: './src/h5Components/info-card/plugin.js',
+      renderer: './src/components/info-card/renderer.js',
+      plugin: './src/components/info-card/plugin.js',
     },
     // 用于构建生产环境代码的相关配置信息
     NODE_ENV: 'production', // development / production
