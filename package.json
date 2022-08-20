@@ -1,6 +1,6 @@
 {
   "name": "h5-custom-widget-template",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "单个H5自定义组件示例（vue3技术栈），用于充当跨端自定义组件在编辑器端的使用和预览。",
   "keywords": [
     "自定义组件",
